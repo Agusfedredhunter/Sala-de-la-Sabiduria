@@ -1,0 +1,31 @@
+1A: Tiempo de procesamiento de SINHILOS.PY: 5.63 segundos, 5.62 segundos, 5.52 segundos Tiempo de procesamiento de CONHILOS.PY: 4.43 segundos, 4.42 segundos, 4.53 segundos, 4.43 segundos
+
+1B: Son iguales, pero con pequeñas diferencias entre sí en los números de los milisegundos
+
+1C: SUMA_RESTA.PY
+
+    0.417
+    0.465
+    0.349
+    0.269
+    0.32
+    0.284
+    0.256
+    0.327
+    0.297
+    0.28
+
+SIN EL #
+
+    0.385
+    0.267
+    0.273
+    0.298
+    0.281
+    0.358
+    0.275
+    0.293
+    0.278
+    0.285
+
+Lo que paso fue que, con los comentarios, al inicio el programa tardaba un poco más en correr hasta que después llego hasta el rango de 200 milisegundos. Pero después de descomentar el programa, el procesamiento del programa no subió a más de 385 milisegundos por lo que se puede decir que se aceleró un poco.
