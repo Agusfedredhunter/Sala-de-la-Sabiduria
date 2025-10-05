@@ -1,3 +1,5 @@
+-- Consultas con Join
+
 select
  b.nombre,
  b.cuota
@@ -8,4 +10,18 @@ join
 where
  s.nombre = 'juan perez';
 
+-- Consultas sin Join
 
+select 
+ nombre
+from
+ barcos
+where 
+ matricula in (
+         select
+          matricula
+		from
+         salidas
+         where
+         destino='mallorca'
+);
